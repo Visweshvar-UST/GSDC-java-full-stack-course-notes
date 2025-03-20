@@ -106,10 +106,16 @@ e.g. this(Argument); - and it should be the first statement and cant call more t
 </ul>
 <h4 id="what-is-listiterator">83. What is ListIterator</h4>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>hasPrevious(), previous()</li>
+</ul>
+<h4 id="how-to-add-object-to-the-arraylist">84. How to add object to the ArrayList</h4>
+<ul>
+<li>while  (it.hasNext())  {</li>
+</ul>
+<h2 id="print-all-elements-of-listsystem.out.printlnit.next">// Print all elements of List<br>
+System.out.println(it.next());<br>
+}</h2>
+<ul>
 <li></li>
 <li></li>
 <li></li>
