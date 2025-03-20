@@ -89,6 +89,24 @@ e.g. this(Argument); - and it should be the first statement and cant call more t
 </ul>
 <h4 id="java-collection-framework-hierarchy">75. Java Collection Framework Hierarchy</h4>
 <p><img src="https://flycoolman.com/coding/java/java-collection/featured.png" alt="Java Collection | flycoolman"></p>
+<h4 id="what-is-list">76. What is List</h4>
+<ul>
+<li>.get(), .add(),</li>
+</ul>
+<h4 id="what-is-arraylist">77. What is ArrayList</h4>
+<ul>
+<li>add(), addAll(), remove(), removeAll(), set(), contains(), containsAll(), indexOf(), lastIndexOf(), isEmpty(), size(), clear(), subList(), iterator(), toArray()</li>
+</ul>
+<h4 id="arraylist-constructors">78. ArrayList Constructors</h4>
+<h4 id="what-is-the-hierarchy-of-arraylist">80. What is the Hierarchy of ArrayList</h4>
+<h4 id="what-is-iterator">81. What is Iterator</h4>
+<h4 id="what-is-iterable-interface">82. What is Iterable Interface</h4>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
