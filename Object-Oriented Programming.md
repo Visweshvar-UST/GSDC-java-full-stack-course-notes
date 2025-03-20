@@ -102,6 +102,13 @@ e.g. this(Argument); - and it should be the first statement and cant call more t
 <h4 id="what-is-iterator">81. What is Iterator</h4>
 <h4 id="what-is-iterable-interface">82. What is Iterable Interface</h4>
 <ul>
+<li>hasNext(), next(), remove()</li>
+</ul>
+<h4 id="what-is-listiterator">83. What is ListIterator</h4>
+<ul>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 <li></li>
 <li></li>
