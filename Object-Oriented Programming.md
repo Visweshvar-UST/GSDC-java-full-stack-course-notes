@@ -182,6 +182,92 @@ e.g. this(Argument); - and it should be the first statement and cant call more t
 <h4 id="deque-pop-method">111. Deque: Pop Method</h4>
 <ul>
 <li>removes first element in q</li>
+</ul>
+<h4 id="set-interface-overview---java-collection-framework">113. Set Interface Overview - Java Collection Framework</h4>
+<ul>
+<li>it wont allow duplicate and it is unorder collection</li>
+</ul>
+<h4 id="treeset-overview---java-collection-framework">114. TreeSet Overview - Java Collection Framework</h4>
+<ul>
+<li>it maintains ascending order</li>
+<li>wont allow null</li>
+</ul>
+<h4 id="linkedhashset-overview---java-collection-framework">115. LinkedHashSet Overview - Java Collection Framework</h4>
+<ul>
+<li>i maintains insertion order</li>
+<li>it user double linked list</li>
+</ul>
+<h4 id="add-object-to-hashset">116. Add Object to HashSet</h4>
+<ul>
+<li>obj.add() - it return false it it is already there</li>
+</ul>
+<h4 id="add-multiple-objects-to-linkedhashset">117. Add Multiple Objects to LinkedHashSet</h4>
+<ul>
+<li>using array list</li>
+</ul>
+<h4 id="add-object-to-treeset">118. Add Object to TreeSet</h4>
+<h4 id="check-size-of-linkedhashset">120. Check Size of LinkedHashSet</h4>
+<h4 id="remove-all-objects-from-linkedhashset">121. Remove All Objects from LinkedHashSet</h4>
+<h4 id="retain-objects-in-hashset-retainall-method">122. Retain Objects in HashSet (retainAll Method)</h4>
+<ul>
+<li>it will return true when all the elements are in the hashset and it will remove all the other element except the list we have passed</li>
+</ul>
+<h4 id="vector-constructors">123. Vector Constructors</h4>
+<ul>
+<li>default initial capacity of vector is 10</li>
+</ul>
+<h4 id="add-elements-to-vector">124. Add Elements to Vector</h4>
+<h4 id="stack-overview---java-collection-framework">125. Stack Overview - Java Collection Framework</h4>
+<h4 id="map-overview---java-collection-framework">126. Map Overview - Java Collection Framework</h4>
+<h4 id="map.entry-interface-overview">128. Map.Entry Interface Overview</h4>
+<h4 id="hashmap-constructors-overview">129. HashMap Constructors Overview</h4>
+<ul>
+<li>initial capacity 5</li>
+</ul>
+<h4 id="add-user-defined-object-to-hashmap">130. Add User-Defined Object to HashMap</h4>
+<h4 id="clear-hashmap-clear-method">131. Clear HashMap (Clear Method)</h4>
+<h4 id="add-key-value-pair-using-put-method-in-hashmap">132. Add Key-Value Pair using put() Method in HashMap</h4>
+<h4 id="add-multiple-key-value-pairs-using-putall-in-hashmap">133. Add Multiple Key-Value Pairs using putAll() in HashMap</h4>
+<h4 id="treemap-overview---java-collection-framework">134. TreeMap Overview - Java Collection Framework</h4>
+<ul>
+<li>it maintains ascending order</li>
+<li>not synchronized</li>
+</ul>
+<h4 id="comparable-vs-comparator-in-java">136. Comparable vs Comparator in Java</h4>
+<p>Comparable :  java.lang, compareTo(obj), collection.sort(list)<br>
+Comparator :  java.util, compare(obj1,obj2), collections.sor(list, compare())</p>
+<h4 id="functional-interface-in-java-8-features">137. Functional Interface in Java 8 Features</h4>
+<ul>
+<li>it contains only one abstract method</li>
+<li>it can contains default and static method</li>
+<li>default function interface:</li>
+<li>Function&lt;T,R&gt; - apply(T t)</li>
+<li>Consumer - accept(T t)</li>
+<li>Supplier - get()</li>
+<li>Runnable - run() - via thread we can execute it {Thread obj = new Thread(()-&gt;{}); obj.start()}</li>
+</ul>
+<h4 id="hashing-and-hashcode-overview">138. Hashing and HashCode Overview</h4>
+<ul>
+<li>process of converting string to hashcode is hashing</li>
+</ul>
+<h4 id="predicate-interface-in-java-8-with-lambda-examples-">139. Predicate Interface in Java 8 with Lambda Examples ********************</h4>
+<ul>
+<li>LocalDateTime obj  = LocalDateTime.now()</li>
+<li>LocalDateTime.of(date, time)</li>
+<li>.parse(…T…)</li>
+<li>.MAX , .MIN</li>
+</ul>
+<h4 id="biconsumer-interface-in-java-8-with-lambda-examples-">140. BiConsumer Interface in Java 8 with Lambda Examples *******************</h4>
+<ul>
+<li>it accepts 2 elements</li>
+<li>BiConsumer(T t1, T t2)</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 <li></li>
 </ul>
