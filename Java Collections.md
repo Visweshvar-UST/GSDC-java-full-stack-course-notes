@@ -185,11 +185,29 @@ four types of method reference</li>
 </ul>
 <h4 id="localdate-in-java-8">147. LocalDate in Java 8</h4>
 <ul>
+<li>java.time</li>
 <li>LocalDate, LocalTime, LocalDateTime</li>
 <li>.plus() , .minus()</li>
 <li>yyyy-mm-dd</li>
-<li></li>
-<li></li>
+</ul>
+<h4 id="localdatetime-in-java-8">149. LocalDateTime in Java 8</h4>
+<ul>
+<li>LocalDateTime.now() , .of(date,time), .parse(“2024-12-12T05:34:23”)</li>
+<li>.plusDays(), minusHours()</li>
+</ul>
+<h4 id="why-interfaces-need-default-methods-in-java">150. Why Interfaces Need Default Methods in Java</h4>
+<ul>
+<li>default method will provide implementation of a method so no need to implement it in all the class which is implemented the interface</li>
+</ul>
+<h4 id="java-8-streams-creating-stream-objects">151. Java 8 Streams: Creating Stream Objects</h4>
+<ul>
+<li>source - filter -  sort - map - collet</li>
+<li>Stream obj = Stream.of()</li>
+<li>Stream obj = collectionVariable.stream()</li>
+<li>Stream obj = Arrays.stream(var)</li>
+</ul>
+<h4 id="java-8-streams-sorting-with-comparator">152. Java 8 Streams: Sorting with Comparator</h4>
+<ul>
 <li></li>
 <li></li>
 <li></li>
